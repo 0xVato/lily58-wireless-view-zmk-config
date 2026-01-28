@@ -21,15 +21,6 @@
         };
     };
 
-    macros {
-        CTRL_A: CTRL_A {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "CTRL_A";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
