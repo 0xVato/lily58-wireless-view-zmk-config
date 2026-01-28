@@ -34,11 +34,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4                   &kp N5                                     &kp N6     &kp N7                   &kp N8     &kp N9   &kp N0           &kp DEL
-&kp TAB           &kp Q   &kp W   &kp E     &kp R                    &kp T                                      &kp Z      &kp U                    &kp I      &kp O    &kp P            &kp DE_U_UMLAUT
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &longPress LEFT_SHIFT F  &kp G                                      &kp H      &longPress LEFT_SHIFT J  &kp K      &kp L    &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp LEFT_CONTROL  &kp Y   &kp X   &kp C     &kp V                    &kp B          &none          &none        &kp N      &kp M                    &kp COMMA  &kp DOT  &kp MINUS        &kp RIGHT_CONTROL
-                                  &kp LALT  &kp LGUI                 &kp BACKSPACE  &lt 1 SPACE    &lt 2 SPACE  &kp ENTER  &none                    &none
+&kp ESC           &kp N1    &kp N2  &kp N3    &kp N4                   &kp N5                                     &kp N6     &kp N7                   &kp N8     &kp N9   &kp N0           &kp DEL
+&kp TAB           &kp Q     &kp W   &kp E     &kp R                    &kp T                                      &kp DE_Z   &kp U                    &kp I      &kp O    &kp P            &kp DE_U_UMLAUT
+&kp LEFT_SHIFT    &kp A     &kp S   &kp D     &longPress LEFT_SHIFT F  &kp G                                      &kp H      &longPress LEFT_SHIFT J  &kp K      &kp L    &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
+&kp LEFT_CONTROL  &kp DE_Y  &kp X   &kp C     &kp V                    &kp B          &none          &none        &kp N      &kp M                    &kp COMMA  &kp DOT  &kp DE_MINUS     &kp RIGHT_CONTROL
+                                    &kp LALT  &kp LGUI                 &kp BACKSPACE  &lt 1 SPACE    &lt 2 SPACE  &kp ENTER  &none                    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -74,11 +74,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &kp F1          &kp F2          &kp F3       &kp F4        &kp F5                             &kp F6       &kp F7            &kp F8        &kp F9  &kp F10      &kp F11
-&trans  &kp DE_AT_SIGN  &none           &kp DE_EURO  &none         &none                              &kp LC(Z)    &kp LC(DE_SLASH)  &kp UP_ARROW  &none   &kp DE_SECT  &kp F12
-&trans  &kp LC(A)       &kp DE_SHARP_S  &none        &kp DE_CARET  &none                              &kp HOME     &kp LEFT          &kp DOWN      &kp UP  &kp END      &none
-&trans  &kp F8          &kp RC(X)       &kp LC(C)    &kp LC(V)     &kp DE_GRAVE  &trans       &trans  &kp DE_HASH  &kp DE_PERCENT    &none         &none   &none        &kp K_REFRESH
-                                        &trans       &trans        &trans        &kp SPACE    &trans  &trans       &trans            &trans
+&trans  &kp F1          &kp F2          &kp F3       &kp F4        &kp F5                             &kp F6        &kp F7            &kp F8        &kp F9           &kp F10      &kp F11
+&trans  &kp DE_AT_SIGN  &none           &kp DE_EURO  &none         &none                              &kp LC(DE_Z)  &kp LC(DE_SLASH)  &kp UP_ARROW  &none            &kp DE_SECT  &kp F12
+&trans  &kp LC(A)       &kp DE_SHARP_S  &none        &kp DE_CARET  &none                              &kp HOME      &kp LEFT          &kp DOWN      &kp RIGHT_ARROW  &kp END      &none
+&trans  &none           &kp RC(X)       &kp LC(C)    &kp LC(V)     &kp DE_GRAVE  &trans       &trans  &kp DE_HASH   &kp DE_PERCENT    &none         &none            &none        &kp C_AC_REFRESH
+                                        &trans       &trans        &trans        &kp SPACE    &trans  &trans        &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
